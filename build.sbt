@@ -10,6 +10,10 @@ lazy val root = (project in file("."))
       "co.fs2" %% "fs2-core" % "3.6.1",
       "co.fs2" %% "fs2-io" % "3.6.1",
       "org.gnieh" %% "fs2-data-xml" % "1.7.0",
-      "org.scalatest" %% "scalatest" % "3.2.15" % "test"
+      "org.gnieh" %% "fs2-data-json" % "1.7.1",
+      "org.scalatest" %% "scalatest" % "3.2.15" % "test",
+      "io.circe" %% "circe-core" % "0.14.5" % "test",
+      "io.circe" %% "circe-generic" % "0.14.5" % "test",
+      "io.circe" %% "circe-parser" % "0.14.5" % "test"
     )
   )
